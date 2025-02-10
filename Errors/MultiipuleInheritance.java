@@ -21,8 +21,14 @@ class C implements A,B{
 
 public class MultiipuleInheritance {
     public static void main(String args[]){
-        A m= new B() {
-        m.m1();
-        m.m2();
+        C c= new C() ;
+        c.m1();
+        c.m2();
+       // A a=new C();
+        //a.m1();
+       // B b=new C();
+        //b.m2();
+
+
     }
 }
