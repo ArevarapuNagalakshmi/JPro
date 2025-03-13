@@ -7,7 +7,7 @@ public class CompatetoString {
         Integer n=100;
         String s3=n.toString();
         System.out.println(s1==s3);
-        System.out.println(s1.compareTo(s2));
+       // System.out.println(s1.compareTo(s2));
 
     }
 }

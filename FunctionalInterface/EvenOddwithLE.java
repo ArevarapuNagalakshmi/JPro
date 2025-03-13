@@ -1,10 +1,10 @@
 package FunctionalInterface;
 interface EvenOdd{
-    public void m1(int i);
+    void m1(int i);
 }
 public class EvenOddwithLE {
     public static void main(String[] args){
-        EvenOdd Even1=(int i)->{
+        EvenOdd Even1=(i)->{
             if(i%2==0)
             {
                 System.out.println("Even");

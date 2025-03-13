@@ -13,6 +13,7 @@ public class ThrowException {
       try{
          int a=10/0;
       }catch(ArithmeticException e){
+         int a=10/5;
           System.out.println("Exception");
           throw e;
       }

@@ -1,6 +1,6 @@
 package ExceptionHandling;
 class A{
-    void m1(int a,int b) throws ArithmeticException{
+    void m1(int a,int b) {
         if(a==0){
             throw new ArithmeticException("cannot divide by zero");
         }
@@ -8,7 +8,7 @@ class A{
     }
 }
 public class ThrowsException {
-    public static void main(String args[]){
+    public static void main(String args[]) throws ArithmeticException{
         try{
             int a=10/0;
         }catch(ArithmeticException e){

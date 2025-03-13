@@ -1,4 +1,4 @@
-package PredefinedFunInterface;
+package PredefinedFunInterface.PredecateDemo;
 
 import java.util.function.Predicate;
 

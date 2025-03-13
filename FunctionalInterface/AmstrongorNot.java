@@ -9,7 +9,6 @@ public class AmstrongorNot {
         while(n>0){
             r=n%10;
             n=n/10;
-
             sum=sum+r*r*r;
         }
         if(temp==sum){

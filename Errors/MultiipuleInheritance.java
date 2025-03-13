@@ -1,4 +1,4 @@
-package Errors;
+/*package Errors;
 interface A{
     void m1();
 }
@@ -31,4 +31,4 @@ public class MultiipuleInheritance {
 
 
     }
-}
+}*/
